@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="DELETE">
+        <choice_action>reject</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="books transform">e591cbabc30e42100f30ddec0501313a</map>
+        <reference_value_field/>
+        <source_field>u_owner</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_1069205_books_book_import</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-15 02:51:31</sys_created_on>
+        <sys_id>6d725befc34e42100f30ddec050131b3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_owner</sys_name>
+        <sys_package display_value="Books" source="x_1069205_books">313c4ad3c34602100f30ddec05013141</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Books">313c4ad3c34602100f30ddec05013141</sys_scope>
+        <sys_update_name>sys_transform_entry_6d725befc34e42100f30ddec050131b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-15 02:58:50</sys_updated_on>
+        <target_field>owner</target_field>
+        <target_table>x_1069205_books_books</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Books">313c4ad3c34602100f30ddec05013141</application>
+        <file_path/>
+        <instance_id>dcd0ea471b350ad477c7cb7b234bcbd6</instance_id>
+        <instance_name>dev262045</instance_name>
+        <name>sys_transform_entry_6d725befc34e42100f30ddec050131b3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;reject&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="books transform"&gt;e591cbabc30e42100f30ddec0501313a&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_owner&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;x_1069205_books_book_import&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-15 02:51:31&lt;/sys_created_on&gt;&lt;sys_id&gt;6d725befc34e42100f30ddec050131b3&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_owner&lt;/sys_name&gt;&lt;sys_package display_value="Books" source="x_1069205_books"&gt;313c4ad3c34602100f30ddec05013141&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Books"&gt;313c4ad3c34602100f30ddec05013141&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_6d725befc34e42100f30ddec050131b3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-15 02:58:50&lt;/sys_updated_on&gt;&lt;target_field&gt;owner&lt;/target_field&gt;&lt;target_table&gt;x_1069205_books_books&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-679610020</payload_hash>
+        <record_name>u_owner</record_name>
+        <reverted_from/>
+        <source>8e3c4ad3c34602100f30ddec05013144</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-15 02:58:50</sys_created_on>
+        <sys_id>74241b63c38e42100f30ddec05013164</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f7a3033690000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-15 02:58:50</sys_updated_on>
+        <type>Field Map</type>
+        <update_guid>3c241b634a8e4210e815f010fabd8a63</update_guid>
+        <update_guid_history>3c241b634a8e4210e815f010fabd8a63:-679610020,61725befca4e4210654733b9989808b6:-854765575</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-15 03:10:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_entry">sys_transform_entry</sys_db_object>
+        <sys_id>01e6f021a62d411e8004bce6d1c2cda1</sys_id>
+        <sys_metadata>6d725befc34e42100f30ddec050131b3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_owner</sys_name>
+        <sys_package display_value="Books" source="x_1069205_books">313c4ad3c34602100f30ddec05013141</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Books">313c4ad3c34602100f30ddec05013141</sys_scope>
+        <sys_scope_delete display_value="">40e3f70aaea548b9b94704b367e59da9</sys_scope_delete>
+        <sys_update_name>sys_transform_entry_6d725befc34e42100f30ddec050131b3</sys_update_name>
+        <sys_update_version display_value="sys_transform_entry_6d725befc34e42100f30ddec050131b3">74241b63c38e42100f30ddec05013164</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-15 03:10:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

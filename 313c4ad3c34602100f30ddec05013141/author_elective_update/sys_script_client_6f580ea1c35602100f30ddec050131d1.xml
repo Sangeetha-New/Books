@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>status</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>onCellEdit Books</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+   if(newValue == "unavailable"){
+	g_form.showFieldMsg('current_user',"Please select the user who lended the book");
+   }
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-21 02:36:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6f580ea1c35602100f30ddec050131d1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>onCellEdit Books</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Books" source="x_1069205_books">313c4ad3c34602100f30ddec05013141</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Books">313c4ad3c34602100f30ddec05013141</sys_scope>
+        <sys_update_name>sys_script_client_6f580ea1c35602100f30ddec050131d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-21 02:41:42</sys_updated_on>
+        <table>x_1069205_books_books</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Books">313c4ad3c34602100f30ddec05013141</application>
+        <file_path/>
+        <instance_id>dcd0ea471b350ad477c7cb7b234bcbd6</instance_id>
+        <instance_name>dev262045</instance_name>
+        <name>sys_script_client_6f580ea1c35602100f30ddec050131d1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;status&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;onCellEdit Books&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+   if(newValue == "unavailable"){
+	g_form.showFieldMsg('current_user',"Please select the user who lended the book");
+   }
+
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-21 02:36:27&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6f580ea1c35602100f30ddec050131d1&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;onCellEdit Books&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Books" source="x_1069205_books"&gt;313c4ad3c34602100f30ddec05013141&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Books"&gt;313c4ad3c34602100f30ddec05013141&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_6f580ea1c35602100f30ddec050131d1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-21 02:41:42&lt;/sys_updated_on&gt;&lt;table&gt;x_1069205_books_books&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-770717497</payload_hash>
+        <record_name>onCellEdit Books</record_name>
+        <reverted_from/>
+        <source>8e3c4ad3c34602100f30ddec05013144</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-21 02:41:42</sys_created_on>
+        <sys_id>9cc94a25c35602100f30ddec050131b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f9906aaf90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-21 02:41:42</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>54c94a25e15602103c88b160724126b2</update_guid>
+        <update_guid_history>54c94a25e15602103c88b160724126b2:-770717497,7a0986e1b956021013868b4159e1ab65:-374562080,d78846a1b4560210b35bac622eb82692:1541463187</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-21 02:42:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>246e9bbed9d04dd79f76a125232627f9</sys_id>
+        <sys_metadata>6f580ea1c35602100f30ddec050131d1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onCellEdit Books</sys_name>
+        <sys_package display_value="Books" source="x_1069205_books">313c4ad3c34602100f30ddec05013141</sys_package>
+        <sys_parent display_value="Books">bfccca17c34602100f30ddec05013198</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Books">313c4ad3c34602100f30ddec05013141</sys_scope>
+        <sys_scope_delete display_value="">40e3f70aaea548b9b94704b367e59da9</sys_scope_delete>
+        <sys_update_name>sys_script_client_6f580ea1c35602100f30ddec050131d1</sys_update_name>
+        <sys_update_version display_value="sys_script_client_6f580ea1c35602100f30ddec050131d1">9cc94a25c35602100f30ddec050131b2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-21 02:42:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>status</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>onCellEdit Books</name>
+        <order/>
+        <script><![CDATA[function onCellEdit(sysIDs, table, oldValues, newValue, callback) {
+  var saveAndClose = true;
+
+ // prevent cell editing if the status is unavailable
+  if(newValue == "unavailable"){
+	alert("You cannot change the status to unavailable from the list");
+	saveAndClose = false;
+  }
+ 
+ callback(saveAndClose); 
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-21 02:44:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d93a0265c35602100f30ddec050131b3</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>onCellEdit Books</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Books" source="x_1069205_books">313c4ad3c34602100f30ddec05013141</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Books">313c4ad3c34602100f30ddec05013141</sys_scope>
+        <sys_update_name>sys_script_client_d93a0265c35602100f30ddec050131b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 22:11:02</sys_updated_on>
+        <table>x_1069205_books_books</table>
+        <type>onCellEdit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

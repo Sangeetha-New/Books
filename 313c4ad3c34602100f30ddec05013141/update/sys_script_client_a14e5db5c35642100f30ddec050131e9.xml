@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>onSubmit Books</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    var status = g_form.getValue('status');
+
+	//if the status is available, show a confirmation before going ahead.
+
+   if(status == "available"){
+        var returnStatus = confirm("Are you sure "+g_scratchpad.currentUser+" returned the book?");
+        if(!returnStatus){
+            return false;
+        }
+    }
+
+
+
+
+
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-21 18:15:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a14e5db5c35642100f30ddec050131e9</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name>onSubmit Books</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Books" source="x_1069205_books">313c4ad3c34602100f30ddec05013141</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Books">313c4ad3c34602100f30ddec05013141</sys_scope>
+        <sys_update_name>sys_script_client_a14e5db5c35642100f30ddec050131e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 22:28:23</sys_updated_on>
+        <table>x_1069205_books_books</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-14 03:11:16</sys_created_on>
+        <sys_id>c16d8657c34602100f30ddec050131f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1069205_books_books.x_1069205_books.books_user</sys_name>
+        <sys_package display_value="Books" source="x_1069205_books">313c4ad3c34602100f30ddec05013141</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Books">313c4ad3c34602100f30ddec05013141</sys_scope>
+        <sys_security_acl display_value="x_1069205_books_books">416d8657c34602100f30ddec050131f4</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c16d8657c34602100f30ddec050131f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-14 03:11:16</sys_updated_on>
+        <sys_user_role display_value="x_1069205_books.books_user" name="x_1069205_books.books_user">6c6d8257c34602100f30ddec050131c9</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
